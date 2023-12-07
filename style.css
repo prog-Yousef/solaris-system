@@ -1,6 +1,4 @@
-
-
- * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -154,9 +152,13 @@
     height: 5.5px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(150deg);
+    transform: translate(-50%, -50%) rotate(-30deg);
     border-radius: 50%;
-    background: #ffffff66;
+    background: rgba(255, 255, 255, 0.4);
+
+
+
+
 }
 
 #Uranus {
@@ -215,7 +217,7 @@
     height: 166vh;
     width: 70vw;
     border-radius: 0px 50% 50% 0;
-    background: #428ed41a;
+    background: #3f80bd1a;
 }
 
 #atmosfare-modal-outer {
@@ -238,13 +240,13 @@
     height: 100%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    background: linear-gradient(90deg, #0c164d 0%, #190b22 100%);
+    background: linear-gradient(90deg, #2d388b 0%, #220c29 100%);
     overflow: hidden;
 }
 
 /* knappen för och stänga modal pop sidan */
 .close {
-    color: #ebdedea9;
+    color: #cab1b1a9;
     display: flex;
     justify-content: end;
     font-size: 28px;
@@ -274,8 +276,6 @@
     height: 4px;
     border-radius: 50%;
     opacity: 0.2;
-    transform: rotate(45deg);
-    /* Rotate the star to give it a diamond shape */
 }
 
 
@@ -285,8 +285,8 @@
     display: grid;
 
     margin-left: 16rem;
-    width: 640px;
-    height: 682px;
+    width: 670px;
+    height: 690px;
     margin-top: 3rem;
 
     padding: 1rem;
@@ -311,22 +311,23 @@ ul {
 
 .main-text {
     font-family: Roboto Condensed;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 31px;
     letter-spacing: 0.16em;
     text-align: left;
-    color: #fdfdfd;
+    color: #d2cdcd;
 
 }
+
 .container-planet-info {
     font-family: Secular One;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0.09em;
     text-align: left;
-    color: #ffffff;
+    color: #f4f4f4;
     margin-bottom: 4px;
 }
 
@@ -337,7 +338,7 @@ ul {
     line-height: 18px;
     letter-spacing: 0.09rem;
     text-align: left;
-    color: #ffffff;
+    color: #faf8f8;
 }
 
 .moon-text {
@@ -366,7 +367,7 @@ ul {
 .container-header-text {
     font-family: Secular One;
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 60px;
     letter-spacing: 0.09em;
     text-align: left;
@@ -377,7 +378,7 @@ ul {
 .container-underheader-text {
     font-family: Lora;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 24px;
     letter-spacing: 0.6em;
     text-align: left;
@@ -400,7 +401,7 @@ ul {
 .line {
     width: 640px;
     height: 1px;
-    background: #FFFFFF;
+    background: #fffcfc;
     margin-top: 32px;
     margin-bottom: 32px;
     opacity: 70%;

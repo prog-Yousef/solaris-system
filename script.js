@@ -165,7 +165,7 @@ function getPlanetColor(planetName) {
 function openPopup(planetName) {
     modalPlanets.style.display = "block";
     containergridtext(planetName);
-        CreateStarField();
+        CreateStars();
 }
 
 
@@ -186,7 +186,7 @@ getSolarData().then(addClick);
 //Uses Array.from to iterate over a range of numbers
 
 
-function CreateStarField() {
+function CreateStars() {
     const starFieldContainer = document.createElement("div");
     starFieldContainer.id = "star-container";
 
